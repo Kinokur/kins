@@ -48,8 +48,9 @@ public class IronDetectorItem extends Item {
     }
 
     private void outputValuableCoordinates(BlockPos below, Player player, Block block) {
-        player.sendSystemMessage(Component.literal("Found " + I18n.get(block.getDescriptionId())+ " at " +
-                "( "+ below.getX()+", "+ below.getY()+ ", "+ below.getZ()+ ")"));
+        int PlayerY = player.getBlockY();
+        int depth = PlayerY - below.getY();
+        player.sendSystemMessage(Component.literal("Найдено "+ I18n.get(block.getDescriptionId())+ " на высоте "+ below.getY()+"("+ depth+" глубине от вас)"));
     }
 
     private boolean isValuableBlock(BlockState state) {
