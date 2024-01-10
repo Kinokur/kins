@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 1.7,
+  "group": "topaz",
+  "ingredient": {
+    "item": "kins:raw_topaz"
+  },
+  "result": "kins:topaz"
+}

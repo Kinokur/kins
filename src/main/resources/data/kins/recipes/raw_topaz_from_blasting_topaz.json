@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 70,
+  "experience": 1.7,
+  "group": "copper_ingot",
+  "ingredient": {
+    "item": "kins:raw_topaz"
+  },
+  "result": "kins:topaz"
+}
