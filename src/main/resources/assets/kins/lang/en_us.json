@@ -1,6 +1,7 @@
 {
   "item.kins.topaz": "Topaz",
   "item.kins.raw_topaz": "Raw Topaz",
+  "item.kins.iron_detector" : "Iron Detector",
 
   "block.kins.topaz_block": "Block of Topaz",
   "block.kins.topaz_ore": "Topaz Ore",

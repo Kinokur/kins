@@ -1,6 +1,7 @@
 package com.kinokur.kins.item;
 
 import com.kinokur.kins.Kins;
+import com.kinokur.kins.item.custom.IronDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,6 +17,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_TOPAZ =
             ITEMS.register("raw_topaz",() -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_DETECTOR =
+            ITEMS.register("iron_detector",() -> new IronDetectorItem(new Item.Properties().durability(100)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
